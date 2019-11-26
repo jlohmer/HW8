@@ -1,0 +1,17 @@
+﻿<Window x:Class="HW8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_Select_Directory" Content="Select Directory" HorizontalAlignment="Left" Margin="76,337,0,0" VerticalAlignment="Top" Width="136" Height="57" Click="btn_Select_Directory_Click"/>
+        <Button x:Name="btn_Populate_Files" Content="Populate Files" HorizontalAlignment="Left" Margin="326,337,0,0" VerticalAlignment="Top" Width="132" Height="57" Click="Populate_Files_Click" IsEnabled="False"/>
+        <Button x:Name="btn_Run_Analysis" Content="Run Analysis" HorizontalAlignment="Left" Margin="570,340,0,0" VerticalAlignment="Top" Width="132" Height="54" Click="btn_Run_Analysis_Click" IsEnabled="False"/>
+        <ListBox x:Name="lstFiles" HorizontalAlignment="Left" Height="135" Margin="76,50,0,0" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="txtFolderPath" HorizontalAlignment="Left" Height="33" Margin="76,285,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136" RenderTransformOrigin="0.495,0.438" IsEnabled="False"/>
+
+    </Grid>
+</Window>
